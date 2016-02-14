@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19CF57181C70677D00CF56D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF57171C70677D00CF56D6 /* main.m */; };
+		19CF571B1C70677D00CF56D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF571A1C70677D00CF56D6 /* AppDelegate.m */; };
+		19CF571E1C70677D00CF56D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF571D1C70677D00CF56D6 /* ViewController.m */; };
+		19CF57211C70677D00CF56D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19CF571F1C70677D00CF56D6 /* Main.storyboard */; };
+		19CF57231C70677D00CF56D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19CF57221C70677D00CF56D6 /* Assets.xcassets */; };
+		19CF57261C70677D00CF56D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19CF57241C70677D00CF56D6 /* LaunchScreen.storyboard */; };
+		19CF57311C70677D00CF56D6 /* ZYTableviewHeaderViewPullTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF57301C70677D00CF56D6 /* ZYTableviewHeaderViewPullTests.m */; };
+		19CF573C1C70677D00CF56D6 /* ZYTableviewHeaderViewPullUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF573B1C70677D00CF56D6 /* ZYTableviewHeaderViewPullUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19CF572D1C70677D00CF56D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19CF570B1C70677D00CF56D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19CF57121C70677D00CF56D6;
+			remoteInfo = ZYTableviewHeaderViewPull;
+		};
+		19CF57381C70677D00CF56D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19CF570B1C70677D00CF56D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19CF57121C70677D00CF56D6;
+			remoteInfo = ZYTableviewHeaderViewPull;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19CF57131C70677D00CF56D6 /* ZYTableviewHeaderViewPull.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYTableviewHeaderViewPull.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19CF57171C70677D00CF56D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19CF57191C70677D00CF56D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		19CF571A1C70677D00CF56D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		19CF571C1C70677D00CF56D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		19CF571D1C70677D00CF56D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		19CF57201C70677D00CF56D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19CF57221C70677D00CF56D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19CF57251C70677D00CF56D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19CF57271C70677D00CF56D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19CF572C1C70677D00CF56D6 /* ZYTableviewHeaderViewPullTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYTableviewHeaderViewPullTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19CF57301C70677D00CF56D6 /* ZYTableviewHeaderViewPullTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTableviewHeaderViewPullTests.m; sourceTree = "<group>"; };
+		19CF57321C70677D00CF56D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19CF57371C70677D00CF56D6 /* ZYTableviewHeaderViewPullUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYTableviewHeaderViewPullUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19CF573B1C70677D00CF56D6 /* ZYTableviewHeaderViewPullUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTableviewHeaderViewPullUITests.m; sourceTree = "<group>"; };
+		19CF573D1C70677D00CF56D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19CF57101C70677D00CF56D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19CF57291C70677D00CF56D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19CF57341C70677D00CF56D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19CF570A1C70677D00CF56D6 = {
+			isa = PBXGroup;
+			children = (
+				19CF57151C70677D00CF56D6 /* ZYTableviewHeaderViewPull */,
+				19CF572F1C70677D00CF56D6 /* ZYTableviewHeaderViewPullTests */,
+				19CF573A1C70677D00CF56D6 /* ZYTableviewHeaderViewPullUITests */,
+				19CF57141C70677D00CF56D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19CF57141C70677D00CF56D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19CF57131C70677D00CF56D6 /* ZYTableviewHeaderViewPull.app */,
+				19CF572C1C70677D00CF56D6 /* ZYTableviewHeaderViewPullTests.xctest */,
+				19CF57371C70677D00CF56D6 /* ZYTableviewHeaderViewPullUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19CF57151C70677D00CF56D6 /* ZYTableviewHeaderViewPull */ = {
+			isa = PBXGroup;
+			children = (
+				19CF57191C70677D00CF56D6 /* AppDelegate.h */,
+				19CF571A1C70677D00CF56D6 /* AppDelegate.m */,
+				19CF571C1C70677D00CF56D6 /* ViewController.h */,
+				19CF571D1C70677D00CF56D6 /* ViewController.m */,
+				19CF571F1C70677D00CF56D6 /* Main.storyboard */,
+				19CF57221C70677D00CF56D6 /* Assets.xcassets */,
+				19CF57241C70677D00CF56D6 /* LaunchScreen.storyboard */,
+				19CF57271C70677D00CF56D6 /* Info.plist */,
+				19CF57161C70677D00CF56D6 /* Supporting Files */,
+			);
+			path = ZYTableviewHeaderViewPull;
+			sourceTree = "<group>";
+		};
+		19CF57161C70677D00CF56D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19CF57171C70677D00CF56D6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19CF572F1C70677D00CF56D6 /* ZYTableviewHeaderViewPullTests */ = {
+			isa = PBXGroup;
+			children = (
+				19CF57301C70677D00CF56D6 /* ZYTableviewHeaderViewPullTests.m */,
+				19CF57321C70677D00CF56D6 /* Info.plist */,
+			);
+			path = ZYTableviewHeaderViewPullTests;
+			sourceTree = "<group>";
+		};
+		19CF573A1C70677D00CF56D6 /* ZYTableviewHeaderViewPullUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19CF573B1C70677D00CF56D6 /* ZYTableviewHeaderViewPullUITests.m */,
+				19CF573D1C70677D00CF56D6 /* Info.plist */,
+			);
+			path = ZYTableviewHeaderViewPullUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19CF57121C70677D00CF56D6 /* ZYTableviewHeaderViewPull */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19CF57401C70677D00CF56D6 /* Build configuration list for PBXNativeTarget "ZYTableviewHeaderViewPull" */;
+			buildPhases = (
+				19CF570F1C70677D00CF56D6 /* Sources */,
+				19CF57101C70677D00CF56D6 /* Frameworks */,
+				19CF57111C70677D00CF56D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYTableviewHeaderViewPull;
+			productName = ZYTableviewHeaderViewPull;
+			productReference = 19CF57131C70677D00CF56D6 /* ZYTableviewHeaderViewPull.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19CF572B1C70677D00CF56D6 /* ZYTableviewHeaderViewPullTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19CF57431C70677D00CF56D6 /* Build configuration list for PBXNativeTarget "ZYTableviewHeaderViewPullTests" */;
+			buildPhases = (
+				19CF57281C70677D00CF56D6 /* Sources */,
+				19CF57291C70677D00CF56D6 /* Frameworks */,
+				19CF572A1C70677D00CF56D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19CF572E1C70677D00CF56D6 /* PBXTargetDependency */,
+			);
+			name = ZYTableviewHeaderViewPullTests;
+			productName = ZYTableviewHeaderViewPullTests;
+			productReference = 19CF572C1C70677D00CF56D6 /* ZYTableviewHeaderViewPullTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19CF57361C70677D00CF56D6 /* ZYTableviewHeaderViewPullUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19CF57461C70677D00CF56D6 /* Build configuration list for PBXNativeTarget "ZYTableviewHeaderViewPullUITests" */;
+			buildPhases = (
+				19CF57331C70677D00CF56D6 /* Sources */,
+				19CF57341C70677D00CF56D6 /* Frameworks */,
+				19CF57351C70677D00CF56D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19CF57391C70677D00CF56D6 /* PBXTargetDependency */,
+			);
+			name = ZYTableviewHeaderViewPullUITests;
+			productName = ZYTableviewHeaderViewPullUITests;
+			productReference = 19CF57371C70677D00CF56D6 /* ZYTableviewHeaderViewPullUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19CF570B1C70677D00CF56D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = yi;
+				TargetAttributes = {
+					19CF57121C70677D00CF56D6 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					19CF572B1C70677D00CF56D6 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 19CF57121C70677D00CF56D6;
+					};
+					19CF57361C70677D00CF56D6 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 19CF57121C70677D00CF56D6;
+					};
+				};
+			};
+			buildConfigurationList = 19CF570E1C70677D00CF56D6 /* Build configuration list for PBXProject "ZYTableviewHeaderViewPull" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19CF570A1C70677D00CF56D6;
+			productRefGroup = 19CF57141C70677D00CF56D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19CF57121C70677D00CF56D6 /* ZYTableviewHeaderViewPull */,
+				19CF572B1C70677D00CF56D6 /* ZYTableviewHeaderViewPullTests */,
+				19CF57361C70677D00CF56D6 /* ZYTableviewHeaderViewPullUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19CF57111C70677D00CF56D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19CF57261C70677D00CF56D6 /* LaunchScreen.storyboard in Resources */,
+				19CF57231C70677D00CF56D6 /* Assets.xcassets in Resources */,
+				19CF57211C70677D00CF56D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19CF572A1C70677D00CF56D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19CF57351C70677D00CF56D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19CF570F1C70677D00CF56D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19CF571E1C70677D00CF56D6 /* ViewController.m in Sources */,
+				19CF571B1C70677D00CF56D6 /* AppDelegate.m in Sources */,
+				19CF57181C70677D00CF56D6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19CF57281C70677D00CF56D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19CF57311C70677D00CF56D6 /* ZYTableviewHeaderViewPullTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19CF57331C70677D00CF56D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19CF573C1C70677D00CF56D6 /* ZYTableviewHeaderViewPullUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19CF572E1C70677D00CF56D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19CF57121C70677D00CF56D6 /* ZYTableviewHeaderViewPull */;
+			targetProxy = 19CF572D1C70677D00CF56D6 /* PBXContainerItemProxy */;
+		};
+		19CF57391C70677D00CF56D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19CF57121C70677D00CF56D6 /* ZYTableviewHeaderViewPull */;
+			targetProxy = 19CF57381C70677D00CF56D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19CF571F1C70677D00CF56D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19CF57201C70677D00CF56D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19CF57241C70677D00CF56D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19CF57251C70677D00CF56D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19CF573E1C70677D00CF56D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19CF573F1C70677D00CF56D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19CF57411C70677D00CF56D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYTableviewHeaderViewPull/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TyroneWing.ZYTableviewHeaderViewPull;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		19CF57421C70677D00CF56D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZYTableviewHeaderViewPull/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TyroneWing.ZYTableviewHeaderViewPull;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		19CF57441C70677D00CF56D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZYTableviewHeaderViewPullTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TyroneWing.ZYTableviewHeaderViewPullTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYTableviewHeaderViewPull.app/ZYTableviewHeaderViewPull";
+			};
+			name = Debug;
+		};
+		19CF57451C70677D00CF56D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZYTableviewHeaderViewPullTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TyroneWing.ZYTableviewHeaderViewPullTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZYTableviewHeaderViewPull.app/ZYTableviewHeaderViewPull";
+			};
+			name = Release;
+		};
+		19CF57471C70677D00CF56D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZYTableviewHeaderViewPullUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TyroneWing.ZYTableviewHeaderViewPullUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYTableviewHeaderViewPull;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		19CF57481C70677D00CF56D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZYTableviewHeaderViewPullUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TyroneWing.ZYTableviewHeaderViewPullUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZYTableviewHeaderViewPull;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19CF570E1C70677D00CF56D6 /* Build configuration list for PBXProject "ZYTableviewHeaderViewPull" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19CF573E1C70677D00CF56D6 /* Debug */,
+				19CF573F1C70677D00CF56D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19CF57401C70677D00CF56D6 /* Build configuration list for PBXNativeTarget "ZYTableviewHeaderViewPull" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19CF57411C70677D00CF56D6 /* Debug */,
+				19CF57421C70677D00CF56D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		19CF57431C70677D00CF56D6 /* Build configuration list for PBXNativeTarget "ZYTableviewHeaderViewPullTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19CF57441C70677D00CF56D6 /* Debug */,
+				19CF57451C70677D00CF56D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		19CF57461C70677D00CF56D6 /* Build configuration list for PBXNativeTarget "ZYTableviewHeaderViewPullUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19CF57471C70677D00CF56D6 /* Debug */,
+				19CF57481C70677D00CF56D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19CF570B1C70677D00CF56D6 /* Project object */;
+}
