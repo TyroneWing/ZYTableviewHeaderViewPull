@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		19CF57181C70677D00CF56D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF57171C70677D00CF56D6 /* main.m */; };
 		19CF571B1C70677D00CF56D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF571A1C70677D00CF56D6 /* AppDelegate.m */; };
-		19CF571E1C70677D00CF56D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF571D1C70677D00CF56D6 /* ViewController.m */; };
 		19CF57211C70677D00CF56D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19CF571F1C70677D00CF56D6 /* Main.storyboard */; };
 		19CF57231C70677D00CF56D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19CF57221C70677D00CF56D6 /* Assets.xcassets */; };
 		19CF57261C70677D00CF56D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19CF57241C70677D00CF56D6 /* LaunchScreen.storyboard */; };
 		19CF57311C70677D00CF56D6 /* ZYTableviewHeaderViewPullTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF57301C70677D00CF56D6 /* ZYTableviewHeaderViewPullTests.m */; };
 		19CF573C1C70677D00CF56D6 /* ZYTableviewHeaderViewPullUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF573B1C70677D00CF56D6 /* ZYTableviewHeaderViewPullUITests.m */; };
+		19CF574E1C7067A900CF56D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF574A1C7067A900CF56D6 /* ViewController.m */; };
+		19CF574F1C7067A900CF56D6 /* ParallaxHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF574C1C7067A900CF56D6 /* ParallaxHeaderView.m */; };
+		19CF57501C7067A900CF56D6 /* FriendsBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 19CF574D1C7067A900CF56D6 /* FriendsBackground.png */; };
+		19CF57531C7067B500CF56D6 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF57521C7067B500CF56D6 /* UIImage+ImageEffects.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +42,6 @@
 		19CF57171C70677D00CF56D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		19CF57191C70677D00CF56D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		19CF571A1C70677D00CF56D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		19CF571C1C70677D00CF56D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		19CF571D1C70677D00CF56D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		19CF57201C70677D00CF56D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		19CF57221C70677D00CF56D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19CF57251C70677D00CF56D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,13 @@
 		19CF57371C70677D00CF56D6 /* ZYTableviewHeaderViewPullUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYTableviewHeaderViewPullUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19CF573B1C70677D00CF56D6 /* ZYTableviewHeaderViewPullUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTableviewHeaderViewPullUITests.m; sourceTree = "<group>"; };
 		19CF573D1C70677D00CF56D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19CF57491C7067A900CF56D6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		19CF574A1C7067A900CF56D6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		19CF574B1C7067A900CF56D6 /* ParallaxHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParallaxHeaderView.h; sourceTree = "<group>"; };
+		19CF574C1C7067A900CF56D6 /* ParallaxHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParallaxHeaderView.m; sourceTree = "<group>"; };
+		19CF574D1C7067A900CF56D6 /* FriendsBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FriendsBackground.png; sourceTree = "<group>"; };
+		19CF57511C7067B500CF56D6 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		19CF57521C7067B500CF56D6 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +111,13 @@
 			children = (
 				19CF57191C70677D00CF56D6 /* AppDelegate.h */,
 				19CF571A1C70677D00CF56D6 /* AppDelegate.m */,
-				19CF571C1C70677D00CF56D6 /* ViewController.h */,
-				19CF571D1C70677D00CF56D6 /* ViewController.m */,
+				19CF57491C7067A900CF56D6 /* ViewController.h */,
+				19CF574A1C7067A900CF56D6 /* ViewController.m */,
+				19CF574B1C7067A900CF56D6 /* ParallaxHeaderView.h */,
+				19CF574C1C7067A900CF56D6 /* ParallaxHeaderView.m */,
+				19CF57511C7067B500CF56D6 /* UIImage+ImageEffects.h */,
+				19CF57521C7067B500CF56D6 /* UIImage+ImageEffects.m */,
+				19CF574D1C7067A900CF56D6 /* FriendsBackground.png */,
 				19CF571F1C70677D00CF56D6 /* Main.storyboard */,
 				19CF57221C70677D00CF56D6 /* Assets.xcassets */,
 				19CF57241C70677D00CF56D6 /* LaunchScreen.storyboard */,
@@ -246,6 +259,7 @@
 				19CF57261C70677D00CF56D6 /* LaunchScreen.storyboard in Resources */,
 				19CF57231C70677D00CF56D6 /* Assets.xcassets in Resources */,
 				19CF57211C70677D00CF56D6 /* Main.storyboard in Resources */,
+				19CF57501C7067A900CF56D6 /* FriendsBackground.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +284,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19CF571E1C70677D00CF56D6 /* ViewController.m in Sources */,
+				19CF574F1C7067A900CF56D6 /* ParallaxHeaderView.m in Sources */,
+				19CF57531C7067B500CF56D6 /* UIImage+ImageEffects.m in Sources */,
+				19CF574E1C7067A900CF56D6 /* ViewController.m in Sources */,
 				19CF571B1C70677D00CF56D6 /* AppDelegate.m in Sources */,
 				19CF57181C70677D00CF56D6 /* main.m in Sources */,
 			);
@@ -414,6 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZYTableviewHeaderViewPull/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TyroneWing.ZYTableviewHeaderViewPull;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +442,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZYTableviewHeaderViewPull/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.TyroneWing.ZYTableviewHeaderViewPull;
 				PRODUCT_NAME = "$(TARGET_NAME)";
