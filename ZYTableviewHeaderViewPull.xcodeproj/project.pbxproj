@@ -18,6 +18,7 @@
 		19CF574F1C7067A900CF56D6 /* ParallaxHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF574C1C7067A900CF56D6 /* ParallaxHeaderView.m */; };
 		19CF57501C7067A900CF56D6 /* FriendsBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 19CF574D1C7067A900CF56D6 /* FriendsBackground.png */; };
 		19CF57531C7067B500CF56D6 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF57521C7067B500CF56D6 /* UIImage+ImageEffects.m */; };
+		19CF579A1C706C9E00CF56D6 /* BlurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF57991C706C9E00CF56D6 /* BlurViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		19CF574D1C7067A900CF56D6 /* FriendsBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FriendsBackground.png; sourceTree = "<group>"; };
 		19CF57511C7067B500CF56D6 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
 		19CF57521C7067B500CF56D6 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		19CF57981C706C9E00CF56D6 /* BlurViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlurViewController.h; sourceTree = "<group>"; };
+		19CF57991C706C9E00CF56D6 /* BlurViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlurViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				19CF57511C7067B500CF56D6 /* UIImage+ImageEffects.h */,
 				19CF57521C7067B500CF56D6 /* UIImage+ImageEffects.m */,
 				19CF574D1C7067A900CF56D6 /* FriendsBackground.png */,
+				19CF57981C706C9E00CF56D6 /* BlurViewController.h */,
+				19CF57991C706C9E00CF56D6 /* BlurViewController.m */,
 				19CF571F1C70677D00CF56D6 /* Main.storyboard */,
 				19CF57221C70677D00CF56D6 /* Assets.xcassets */,
 				19CF57241C70677D00CF56D6 /* LaunchScreen.storyboard */,
@@ -285,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				19CF574F1C7067A900CF56D6 /* ParallaxHeaderView.m in Sources */,
+				19CF579A1C706C9E00CF56D6 /* BlurViewController.m in Sources */,
 				19CF57531C7067B500CF56D6 /* UIImage+ImageEffects.m in Sources */,
 				19CF574E1C7067A900CF56D6 /* ViewController.m in Sources */,
 				19CF571B1C70677D00CF56D6 /* AppDelegate.m in Sources */,
