@@ -6,6 +6,12 @@
 //  Copyright © 2016年 yi. All rights reserved.
 //
 
+
+
+/**
+ *      高斯模糊
+ */
+
 #import "BlurViewController.h"
 #import "UIImage+ImageEffects.h"
 

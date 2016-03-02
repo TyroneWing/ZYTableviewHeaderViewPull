@@ -6,6 +6,13 @@
 //  Copyright © 2016年 yi. All rights reserved.
 //
 
+
+/**
+ *  高斯模糊
+ *  tableview 下拉头部放大
+ *
+ */
+
 #import "ViewController.h"
 #import "ParallaxHeaderView.h"
 
@@ -40,7 +47,6 @@
     ParallaxHeaderView *headerView = [ParallaxHeaderView parallaxHeaderViewWithCGSize:CGSizeMake(self.tableView.frame.size.width, 200)];
     headerView.headerTitleLabel.text = @"下拉头部放大";
     headerView.headerImage = [UIImage imageNamed:@"FriendsBackground"];
-    
     [self.tableView setTableHeaderView:headerView];
 }
 
