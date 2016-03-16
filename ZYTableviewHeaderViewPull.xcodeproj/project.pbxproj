@@ -19,6 +19,7 @@
 		19CF57501C7067A900CF56D6 /* FriendsBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 19CF574D1C7067A900CF56D6 /* FriendsBackground.png */; };
 		19CF57531C7067B500CF56D6 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF57521C7067B500CF56D6 /* UIImage+ImageEffects.m */; };
 		19CF579A1C706C9E00CF56D6 /* BlurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19CF57991C706C9E00CF56D6 /* BlurViewController.m */; };
+		19F353681C9968860023C6DB /* TableViewRAMOptimizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F353671C9968860023C6DB /* TableViewRAMOptimizeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		19CF57521C7067B500CF56D6 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		19CF57981C706C9E00CF56D6 /* BlurViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlurViewController.h; sourceTree = "<group>"; };
 		19CF57991C706C9E00CF56D6 /* BlurViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlurViewController.m; sourceTree = "<group>"; };
+		19F353661C9968860023C6DB /* TableViewRAMOptimizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewRAMOptimizeViewController.h; sourceTree = "<group>"; };
+		19F353671C9968860023C6DB /* TableViewRAMOptimizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewRAMOptimizeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		19CF57151C70677D00CF56D6 /* ZYTableviewHeaderViewPull */ = {
 			isa = PBXGroup;
 			children = (
+				19F353661C9968860023C6DB /* TableViewRAMOptimizeViewController.h */,
+				19F353671C9968860023C6DB /* TableViewRAMOptimizeViewController.m */,
 				19CF57191C70677D00CF56D6 /* AppDelegate.h */,
 				19CF571A1C70677D00CF56D6 /* AppDelegate.m */,
 				19CF57491C7067A900CF56D6 /* ViewController.h */,
@@ -295,6 +300,7 @@
 				19CF574E1C7067A900CF56D6 /* ViewController.m in Sources */,
 				19CF571B1C70677D00CF56D6 /* AppDelegate.m in Sources */,
 				19CF57181C70677D00CF56D6 /* main.m in Sources */,
+				19F353681C9968860023C6DB /* TableViewRAMOptimizeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,6 +528,7 @@
 				19CF57421C70677D00CF56D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19CF57431C70677D00CF56D6 /* Build configuration list for PBXNativeTarget "ZYTableviewHeaderViewPullTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +537,7 @@
 				19CF57451C70677D00CF56D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19CF57461C70677D00CF56D6 /* Build configuration list for PBXNativeTarget "ZYTableviewHeaderViewPullUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +546,7 @@
 				19CF57481C70677D00CF56D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
