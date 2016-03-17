@@ -26,6 +26,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     _dataArray = [[NSMutableArray alloc] init];
+    for (int i = 0; i<100; i++) {
+        [_dataArray addObject:[NSString stringWithFormat:@"第%d行",i]];
+    }
     [self createTableView];
 }
 - (void)createTableView
@@ -51,7 +54,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 100;
+    return _dataArray.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -63,7 +66,7 @@
     {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellId];
     }
-    cell.textLabel.text = [NSString stringWithFormat:@"第%ld行",indexPath.row];
+    cell.textLabel.text = _dataArray[indexPath.row];
     if (_tableView.dragging == NO && _tableView.decelerating == NO) {
         NSLog(@"----tableview初始化显示----%ld",indexPath.row);
     }
@@ -95,7 +98,55 @@
             NSLog(@" 减速   第%ld行可视   ",indexPath.row);
         }
     }
+}
+
+- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return YES;
+}
+
+//定义编辑样式
+//- (UITableViewCellEditingStyle)tableView:(UITableView *)tableView editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath
+//{
+//    [tableView setEditing:NO animated:NO];
+//    return UITableViewCellEditingStyleDelete;
+//}
+
+
+////进入编辑模式，按下出现的编辑按钮后
+-(void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [_dataArray removeObjectAtIndex:indexPath.row];
+    NSLog(@"commitEditingStyle");
     
+    [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath]withRowAnimation:UITableViewRowAnimationLeft];
+    [tableView setEditing:NO animated:NO];
+    
+}
+
+//修改编辑按钮文字
+//或者，最简单的方式，将plist中的Localization native development region改为China即可
+- (NSString *)tableView:(UITableView *)tableView titleForDeleteConfirmationButtonForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return @"删除";
+}
+
+//先设置Cell可移动
+- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return YES;
+}
+
+//当两个Cell对换位置后
+- (void)tableView:(UITableView*)tableView moveRowAtIndexPath:(NSIndexPath*)sourceIndexPath toIndexPath:(NSIndexPath*)destinationIndexPath
+{
+    
+}
+
+//设置进入编辑状态时，Cell不会缩进
+- (BOOL)tableView: (UITableView *)tableView shouldIndentWhileEditingRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return NO;
 }
 
 - (void)didReceiveMemoryWarning {

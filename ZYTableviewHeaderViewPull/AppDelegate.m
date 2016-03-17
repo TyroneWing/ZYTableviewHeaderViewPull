@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "BlurViewController.h"
+#import "TableViewRAMOptimizeViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,7 +21,8 @@
     // Override point for customization after application launch.
     
 //    self.window.rootViewController = [[BlurViewController alloc] init];
-    
+//    self.window.rootViewController = [[TableViewRAMOptimizeViewController alloc] init];
+
     return YES;
 }
 
